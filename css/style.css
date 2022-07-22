@@ -3,13 +3,39 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
   }
 
 header{
     background-color: aqua;
     text-align: center;
     font-size: 30px;
+    padding: 20px 0;
 }
+.links{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;       
+}
+.links li{
+    font-size: 18px;
+    background-color: snow;   
+    padding: 10px;    
+}
+.links li a{
+    text-decoration: none;
+    font-style: italic;
+}
+.links li a:hover{
+    color:rgb(227, 53, 243)
+}
+.links li a:active{
+    color: aquamarine;
+}
+.links li a::after{
+    content: " | ";
+}
+
 .container{
     position: relative;
     margin: auto;
