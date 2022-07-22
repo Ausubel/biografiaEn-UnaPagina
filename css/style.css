@@ -1,4 +1,23 @@
-body{
-    background-color: black; 
-    color:white;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+.container{
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    width: 60vw;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.container h1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.container p{
+    font-size: 20px;
 }
