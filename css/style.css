@@ -11,7 +11,7 @@ header{
     text-align: center;
     font-size: 30px;
     padding: 20px 0;
-    height: 10vh;
+    height: 15vh;
 }
 span{
     border: 1px solid black;
@@ -45,6 +45,12 @@ span{
     content: " | ";
 }
 
+main{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     position: absolute;
     width: 60vw;
@@ -54,7 +60,7 @@ span{
     box-shadow: 12px 10px 17px 0px rgba(59,99,128,0.75);
     -webkit-box-shadow: 12px 10px 17px 0px rgba(59,99,128,0.75);
     -moz-box-shadow: 12px 10px 17px 0px rgba(59,99,128,0.75);
-    
+
 }
 .container h1{
     text-align: center;
